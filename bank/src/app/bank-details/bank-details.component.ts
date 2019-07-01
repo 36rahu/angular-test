@@ -22,6 +22,7 @@ export class BankDetailsComponent implements OnInit {
 	displayedColumns;
   datathere = 0;
   selectedPlace = [];
+  p: number = 1;
 
 	server_url = "https://vast-shore-74260.herokuapp.com/banks?city=MUMBAI";
 	server_url1 = "https://vast-shore-74260.herokuapp.com/banks?city=";
